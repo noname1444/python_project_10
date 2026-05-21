@@ -27,5 +27,5 @@ while win_state == False:
                 win_state = True
                 print("Поздравляем, победил игрок " + player + "!")
         if counter > 8 and win_state == False:
-                win_state = True
-                print("Ничья!")
+            win_state = True
+            print("Ничья!")
